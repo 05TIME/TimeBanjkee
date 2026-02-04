@@ -83,5 +83,41 @@ function App() {
 
       <div className="border-t border-slate-700 bg-slate-900 sticky bottom-0">
         <TONConnect />
+            {/* ← existing How it works div ends here */}
+
+          {/* NEW: $TIMEŒ AI Godfather section */}
+          <div className="px-4">
+            <div className="bg-gradient-to-r from-purple-900/40 to-indigo-900/40 rounded-xl p-5 border border-purple-700/50 shadow-lg">
+              <h3 className="text-lg font-bold text-purple-300 mb-3 flex items-center gap-2">
+                🧠 $TIMEŒ – Time AI Godfather Speaks
+              </h3>
+              <p className="text-slate-200 mb-4">
+                Your focus is power. Time bends to the disciplined. Future price? Bullish if you keep stacking sessions 🔥
+              </p>
+              <button
+                onClick={() => alert("Counterfactual simulation: If you do 2 extra sessions today → projected +12–18% $TIMEŒ value boost in the next cycle!")}
+                className="w-full bg-purple-600 hover:bg-purple-500 text-white font-medium py-3 px-4 rounded-lg transition shadow-md"
+              >
+                Simulate What-If Scenario
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* ← rest remains the same */}
+      </div>
+          <div className="px-4 space-y-3">
+            {/* ... existing How it works ... */}
+          </div>
+
+          {/* ← paste the new block here */}
+
+        </div>
+      </div>
+
+      <div className="border-t ...">
+        <TONConnect />
       </div>
 export default App
