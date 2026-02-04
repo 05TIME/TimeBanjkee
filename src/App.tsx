@@ -67,4 +67,21 @@ function App() {
   </button>
 </div>
 
+          <div className="px-4 space-y-3">
+            <div className="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
+              <h3 className="text-sm font-semibold text-slate-300 mb-2">How it works</h3>
+              <ul className="text-xs text-slate-400 space-y-1">
+                <li>✓ Complete 25-minute focus sessions</li>
+                <li>✓ Earn time units with each session</li>
+                <li>✓ Build streaks for bonus rewards</li>
+                <li>✓ Redeem for $TIME tokens</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="border-t border-slate-700 bg-slate-900 sticky bottom-0">
+        <TONConnect />
+      </div>
 export default App
