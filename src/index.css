@@ -48,3 +48,14 @@ body {
     transform: translateY(-10px);
   }
 }
+
+<div style={{ marginTop: '40px', textAlign: 'center' }}>
+  <h2>🧠 $TIMEŒ – Time AI Godfather Speaks</h2>
+  <p>Based on your focus today: Future looks bullish for $TIMEŒ 🔥</p>
+  <button 
+    onClick={() => alert("What if you focused 2 more hours? → +15% projected $TIMEŒ value!")}
+    style={{ padding: '12px 24px', fontSize: '18px', background: '#4CAF50', color: 'white', border: 'none', borderRadius: '8px' }}
+  >
+    Simulate What-If
+  </button>
+</div>
